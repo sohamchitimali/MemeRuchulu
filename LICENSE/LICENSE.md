@@ -1,5 +1,3 @@
-MemeRuchulu is licensed under the [GNU AGPLv3](LICENSE.md).
-
                     GNU AFFERO GENERAL PUBLIC LICENSE
                        Version 3, 19 November 2007
 
