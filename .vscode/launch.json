@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run FastAPI Backend",
+            "type": "python",
+            "request": "launch",
+            "module": "uvicorn",
+            "args": [
+                "server:app",
+                "--reload",
+                "--host",
+                "0.0.0.0",
+                "--port",
+                "8000"
+            ],
+            "jinja": true,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Run Frontend (npm run dev)",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "npm run dev",
+            "cwd": "${workspaceFolder}/frontend"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Run Fullstack (Backend + Frontend)",
+            "configurations": [
+                "Run FastAPI Backend",
+                "Run Frontend (npm run dev)"
+            ]
+        }
+    ]
+}
