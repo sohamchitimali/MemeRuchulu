@@ -1,7 +1,3 @@
-Here’s an updated **README.md** draft for your **MemeRuchulu** project that makes it more structured, fun, and developer-friendly while keeping the local flavor intact:
-
----
-
 # MemeRuchulu 😋
 
 *(“Flavors of Memes” – like home-cooked entertainment)*
@@ -54,6 +50,7 @@ No silent spectators boss 😎 — this side full-time meme cooking jarugutundi.
 🔄 **Work in Progress** – MemeRuchulu is actively being developed.
 Contributions, feature ideas, and memes are always welcome!
 
----
+## License
 
-Do you want me to also add **installation & development instructions** (like how to run it locally: `git clone`, `npm install`, `npm run dev`), or keep this more **user-facing fun style**?
+This project is licensed under the [GNU AGPLv3](./LICENSE).
+
